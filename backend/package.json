@@ -7,13 +7,13 @@
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
-    "strapi": "strapi"
+    "strapi": "strapi",
+    "node": "index.js"
   },
-  "devDependencies": {},
   "dependencies": {
-    "@strapi/strapi": "4.11.2",
-    "@strapi/plugin-users-permissions": "4.11.2",
     "@strapi/plugin-i18n": "4.11.2",
+    "@strapi/plugin-users-permissions": "4.11.2",
+    "@strapi/strapi": "4.11.2",
     "better-sqlite3": "8.0.1"
   },
   "author": {
