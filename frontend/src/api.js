@@ -1,7 +1,7 @@
 export function getStrapiURL(path = "") {
-    return `${process.env.PUBLIC_API_URL || "http://localhost:1337"}${path}`
+    return `${process.env.API_URL}${path}`
 }
 
 export function getStrapiAPIURL(path = "") {
-    return getStrapiURL(`/api/${path}`);
+    return getStrapiURL(`/${path}`);
 }
